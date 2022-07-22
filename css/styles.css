@@ -37,6 +37,7 @@ img {
 }
 .list {
   list-style: none;
+  margin: 0;
 }
 .link {
   text-decoration: none;
@@ -186,9 +187,6 @@ img {
 }
 
 /*----------LIST-ITEM----------*/
-.list {
-  margin: 0;
-}
 .list-container {
   display: flex;
   gap: 30px;
@@ -370,9 +368,6 @@ img {
 }
 .portfolio-item {
   background: #ffffff;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 .portfolio-list-items li {
@@ -415,4 +410,9 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   padding: 4px 24px 20px;
+}
+.portfolio-item-bottom {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
