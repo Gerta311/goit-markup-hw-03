@@ -34,6 +34,9 @@ img {
 
 .body {
   font-family: "Roboto", sans-serif;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .list {
   list-style: none;
@@ -151,6 +154,15 @@ img {
   background-color: var(--background-color-hero);
   padding-bottom: 200px;
   padding-top: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -184,7 +196,8 @@ img {
   padding: 10px 32px;
   border: 0;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+:focus {
   background-color: #188ce8;
 }
 
@@ -252,7 +265,22 @@ img {
   display: flex;
   gap: 30px;
 }
-
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-soc-icon {
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -285,6 +313,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 .info {
   padding-top: 30px;
